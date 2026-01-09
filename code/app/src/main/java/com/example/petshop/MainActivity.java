@@ -36,5 +36,12 @@ public class MainActivity extends AppCompatActivity {
         pettablePets.add(cat);
         pettablePets.add(dog);
         // pettablePets.add(scorpion); THIS THROWS AN ERROR. SCORPION DOESN'T IMPL. PETTABLE
+
+        Happy happy = new Happy();
+        Sad sad = new Sad();
+
+        ArrayList<Mood> moods = new ArrayList<Mood>();
+        moods.add(happy);
+        moods.add(sad);
     }
 }
